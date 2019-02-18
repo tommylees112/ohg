@@ -26,3 +26,12 @@ This repository contains code snippets for working with hydrological, climatolog
 	* geomorphological change
 
 4. Just a repository of blog post like work?
+
+
+*** 
+Snippets:
+
+e.g. Reading from a requirements.txt file to create a new conda environment 
+```bash
+while read requirement; do conda install --yes $requirement; done < requirements.txt
+```
